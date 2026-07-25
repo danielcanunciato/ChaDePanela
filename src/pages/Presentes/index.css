@@ -1,0 +1,81 @@
+.bg {
+    display: grid;
+    transform: translateY(-26px);
+    place-items: center start;
+    width: 100vw;
+    min-height: 100dvh;
+    background: #f5e6d3 url("/images/background.jpg") no-repeat center / contain;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.hero2-text {
+    transform: scale(0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 70ch;
+    text-align: center;
+    margin-top: 80px;
+    justify-self: center;
+    align-self: start;
+
+}
+
+.hero2-text h1 {
+    font-family: 'Poly', serif;
+    font-size: 1.55rem;
+    margin: 0;
+    color: #a11a05;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+.hero2-text p {
+    font-family: "Poly", serif;
+    font-size: 1.35rem;
+    margin: 0;
+    color: #694748;
+    line-height: 1.2;
+    max-width: 95%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.qrcode-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    margin-top: 1rem;
+}
+
+.chave-pix {
+    position: fixed;
+    transform: translate(-74px, 90px);
+}
+
+.chave-pix p {
+    font-family: "Poly", serif;
+    font-size: 1.25rem;
+    color: #2d1b1b;
+    text-align: center;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.qrcode img {
+    width: 240px;
+    height: 240px;
+    transform: translate(-24px, -15px);
+    object-fit: contain;
+    display: block;
+    position: fixed;
+}

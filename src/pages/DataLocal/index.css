@@ -1,0 +1,77 @@
+.bg {
+    display: grid;
+    place-items: center start;
+    width: 100vw;
+    min-height: 100dvh;
+    background: #f5e6d3 url("/images/background.jpg") no-repeat center / contain;
+    padding: 2rem;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.hero-text {
+    transform: scale(0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 70ch;
+    text-align: center;
+    margin-top: 120px;
+    justify-self: center;
+    align-self: start;
+
+}
+
+.hero-text h1, h2 {
+    font-family: 'Poly', serif;
+    font-size: 2.25rem;
+    margin: 0;
+    color: #a11a05;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+.hero-text p {
+    font-family: "Poly", serif;
+    font-size: 1.1rem;
+    margin: 0;
+    color: #694748;
+    line-height: 1.4;
+    max-width: 80%;
+}
+
+body {
+    overflow: hidden;
+}
+
+.dtlo-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    background: url("/images/icons/icon_calendar.png") no-repeat center / contain;
+}
+
+.dtlo-wrapper h2 {
+    font-size: 2.6rem;
+}
+
+.dtlo-wrapper p {
+    font-size: 1.5rem;
+}
+
+.local-icon {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    margin-top: -20px;
+}
+
+.local-icon:hover {
+    transform: scale(1.15);
+    opacity: 0.8;
+}

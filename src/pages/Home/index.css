@@ -1,0 +1,85 @@
+.bg {
+    display: grid;
+    place-items: center start;
+    width: 100vw;
+    min-height: 100dvh;
+    background: #f5e6d3 url("/images/background.jpg") no-repeat center / contain;
+    padding: 2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.hero-text {
+    transform: scale(0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 70ch;
+    text-align: center;
+    justify-self: center;
+    align-self: start;
+
+}
+
+.hero-text h1 {
+    font-family: 'Poly', serif;
+    font-size: 2.25rem;
+    margin: 0;
+    color: #a11a05;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+.hero-text p {
+    font-family: "Poly", serif;
+    font-size: 1.1rem;
+    margin: 0;
+    color: #694748;
+    line-height: 1.4;
+    max-width: 80%;
+}
+
+.buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.75rem;
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    transform: translateX(-14px);
+}
+
+.button-item {
+    display: grid;
+    place-items: center;
+    gap: 0.3rem;
+    flex: 1;
+    max-width: 90px;
+}
+
+.button-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.button-item img:hover {
+    transform: scale(1.05);
+}
+
+.button-label {
+    font-family: 'Poly', serif;
+    font-size: 1rem;
+    color: #694748;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 100%;
+    word-wrap: break-word;
+}
