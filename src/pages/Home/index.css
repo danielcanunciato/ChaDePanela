@@ -3,7 +3,7 @@
     place-items: center start;
     width: 100vw;
     min-height: 100dvh;
-    background: #f5e6d3 url("/images/background.jpg") no-repeat center / contain;
+    background: #f5e6d3 url("/images/background.jpg") repeat-y center / contain;
     padding: 2rem;
     box-sizing: border-box;
     overflow: hidden;

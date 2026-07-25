@@ -11,7 +11,7 @@ export default function DataLocal() {
 
   return (
     <>
-      <div className="bg" style={{ marginTop: "2px", marginBottom: "-76px" }}>
+      <div className="bg" style={{ marginTop: "40px", marginBottom: "-76px" }}>
         <button className="back-button" onClick={() => nav("/")}>
           <span className="back-arrow">←</span>
           <span className="back-text">Voltar</span>
@@ -53,6 +53,10 @@ export default function DataLocal() {
           />
         </div>
       </div>
+
+      <h1 style={{ color: "#a11a05", marginTop: "60px" }}>
+        ────────୨ৎ────────
+      </h1>
     </>
   );
 }

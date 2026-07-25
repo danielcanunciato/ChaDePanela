@@ -7,7 +7,7 @@ export default function Presentes() {
 
     return (
       <>
-        <div className="bg">
+        <div className="bg" style={{ marginTop: "40px" }}>
           <button className="back-button" onClick={() => nav("/")}>
             <span className="back-arrow">←</span>
             <span className="back-text">Voltar</span>
