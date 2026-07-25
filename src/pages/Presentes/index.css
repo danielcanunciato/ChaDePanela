@@ -3,6 +3,7 @@
     transform: translateY(-26px);
     place-items: center start;
     width: 100vw;
+    height: 1200px;
     min-height: 100dvh;
     background: #f5e6d3 url("/images/background.jpg") no-repeat center / contain;
     padding: 2rem;

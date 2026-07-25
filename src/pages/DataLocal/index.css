@@ -2,7 +2,8 @@
     display: grid;
     place-items: center start;
     width: 100vw;
-    min-height: 100dvh;
+    height: 600px;
+    min-height: 724px;
     background: #f5e6d3 url("/images/background.jpg") no-repeat center / contain;
     padding: 2rem;
     box-sizing: border-box;
