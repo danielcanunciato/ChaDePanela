@@ -9,7 +9,7 @@ export default function Presentes() {
       <>
         <div className="bg">
           <button className="back-button" onClick={() => nav("/")}>
-            <span className="back-arrow">🠜</span>
+            <span className="back-arrow">←</span>
             <span className="back-text">Voltar</span>
           </button>
 
