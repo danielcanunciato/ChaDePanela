@@ -72,6 +72,6 @@ body {
 }
 
 .local-icon:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
     opacity: 0.8;
 }
