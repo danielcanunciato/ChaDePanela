@@ -11,7 +11,7 @@ export default function DataLocal() {
 
   return (
     <>
-      <div className="bg" style={{ marginTop: "40px", marginBottom: "-76px" }}>
+      <div className="bg" style={{ marginTop: "60px", marginBottom: "-76px" }}>
         <button className="back-button" onClick={() => nav("/")}>
           <span className="back-arrow">←</span>
           <span className="back-text">Voltar</span>

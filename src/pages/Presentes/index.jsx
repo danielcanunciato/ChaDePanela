@@ -88,6 +88,10 @@ export default function Presentes() {
             </div>
           </div>
         </div>
+
+        <h1 style={{ color: "#a11a05", marginTop: "20px" }}>
+          ────────୨ৎ────────
+        </h1>
       </>
     );
 }
