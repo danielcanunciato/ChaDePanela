@@ -56,10 +56,13 @@ body {
 }
 
 .dtlo-wrapper h2 {
+    font-family: "Great Vibes", cursive;
     font-size: 2.6rem;
 }
 
 .dtlo-wrapper p {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
     font-size: 1.5rem;
 }
 

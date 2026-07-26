@@ -18,7 +18,7 @@ export default function DataLocal() {
         </button>
 
         <div className="hero-text" style={{ transform: "translateY(-60px)" }}>
-          <h1>Data e Local</h1>
+          <h1 style={{ fontFamily: `'Great Vibes', cursive` }}>Data e Local</h1>
           <h1 style={{ marginTop: "-30px" }}>────୨ৎ────</h1>
 
           <div className="dtlo-wrapper">
