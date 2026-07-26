@@ -49,7 +49,7 @@
     width: 100%;
     padding: 0 1rem;
     box-sizing: border-box;
-    margin-top: 1rem;
+    margin-top: -10px;
     transform: translateX(-14px);
 }
 
@@ -89,5 +89,6 @@
     font-family: 'Great Vibes', cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    color: rgb(143, 24, 30);
 }
