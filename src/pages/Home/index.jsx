@@ -1,20 +1,71 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 import "./index.css";
 
 export default function Home() {
   const nav = useNavigate();
+  const [showIntroAnimation, setShowIntroAnimation] = useState(false);
+  const [shouldLoadGif, setShouldLoadGif] = useState(false);
 
   const handleClick = (path) => {
-    nav(path)
-  }
-  
+    nav(path);
+  };
+
   const handleLink = (path) => {
     window.open(path, "_blank");
-  }
+  };
+
+  useEffect(() => {
+    if (localStorage.getItem("visited") === "true") {
+      const introElement = document.getElementById("intro");
+      if (introElement) {
+        introElement.style.display = "none";
+      }
+      return;
+    }
+
+    const animationTimer = setTimeout(() => {
+      setShouldLoadGif(true);
+      setShowIntroAnimation(true);
+    }, 2500);
+
+    const hideTimer = setTimeout(() => {
+      localStorage.setItem("visited", "true");
+      const introElement = document.getElementById("intro");
+      if (introElement) {
+        introElement.style.display = "none";
+      }
+    }, 7000);
+
+    return () => {
+      clearTimeout(animationTimer);
+      clearTimeout(hideTimer);
+    };
+  }, []);
 
   return (
     <>
+      <div
+        className="bg"
+        id="intro"
+        style={{
+          marginTop: "40px",
+          marginBottom: "-40px",
+          position: "fixed",
+          zIndex: 2,
+          backgroundColor: "rgba(0,0,0,0)",
+          backgroundImage: showIntroAnimation
+            ? shouldLoadGif
+              ? "url('/images/convite.gif')"
+              : "none"
+            : "url('/images/convite-idle.jpg')",
+          backgroundSize: "contain",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      ></div>
+
       <div className="bg" style={{ marginTop: "40px", marginBottom: "-40px" }}>
         <div
           className="hero-text"
