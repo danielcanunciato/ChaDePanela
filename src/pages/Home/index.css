@@ -91,4 +91,5 @@
     font-style: normal;
     font-size: 1.3rem;
     color: rgb(143, 24, 30);
+    transform: translateY(-16px);
 }
