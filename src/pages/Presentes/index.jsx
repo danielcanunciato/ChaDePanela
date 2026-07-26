@@ -15,26 +15,56 @@ export default function Presentes() {
 
           <div
             className="hero2-text"
-            style={{ transform: "translateY(-60px) scale(.85)" }}
+            style={{ transform: "translateY(-45px) scale(.85)" }}
           >
-            <h1>Presentes para os Noivos</h1>
+            <h1
+              style={{
+                fontFamily: `"Great Vibes", cursive`,
+                fontSize: "2.5rem",
+              }}
+            >
+              Presentes para os Noivos
+            </h1>
             <h1 style={{ marginTop: "-24px", marginBottom: "-20px" }}>
               ────୨ৎ────
             </h1>
 
-            <p>
+            <p
+              style={{
+                fontFamily: `'Handlee', cursive`,
+                color: "rgb(143, 24, 30)",
+                fontSize: "1.1rem",
+                lineHeight: "1.5rem",
+              }}
+            >
               O maior presente é a sua presença neste dia tão especial. Mas, se
               desejar nos presentar, fique à vontade para escolher o que vier do
               seu coração. <br />
               Cada gesto de carinho será recebido com muita alegria e gratidão!
             </p>
 
-            <h1 style={{ marginTop: "-12px" }}>Necessitamos se puder</h1>
+            <h1
+              style={{
+                marginTop: "-12px",
+                fontFamily: `"Great Vibes", cursive`,
+                fontSize: "2.5rem",
+                letterSpacing: "0.2rem",
+              }}
+            >
+              Necessitamos se puder
+            </h1>
             <h1 style={{ marginTop: "-24px", marginBottom: "-20px" }}>
               ────୨ৎ────
             </h1>
 
-            <p style={{ fontSize: "1.1rem" }}>
+            <p
+              style={{
+                fontFamily: `'Handlee', cursive`,
+                color: "rgb(143, 24, 30)",
+                fontSize: "1.1rem",
+                lineHeight: "1.5rem",
+              }}
+            >
               Jogo de Panelas <br />
               Jogo de Talheres <br />
               Jogo de Facas <br />
@@ -51,12 +81,27 @@ export default function Presentes() {
 
         <div className="bg" style={{ marginBottom: "-40px" }}>
           <div className="hero2-text" style={{ transform: "scale(.85)" }}>
-            <h1 style={{ marginTop: "40px" }}>Presentes para os Noivos</h1>
+            <h1
+              style={{
+                marginTop: "40px",
+                fontFamily: `"Great Vibes", cursive`,
+                fontSize: "2.5rem",
+              }}
+            >
+              Presentes para os Noivos
+            </h1>
             <h1 style={{ marginTop: "-24px", marginBottom: "-20px" }}>
               ────୨ৎ────
             </h1>
 
-            <p style={{ fontSize: "1.1rem" }}>
+            <p
+              style={{
+                fontFamily: `'Handlee', cursive`,
+                color: "rgb(143, 24, 30)",
+                fontSize: "1.1rem",
+                lineHeight: "1.5rem",
+              }}
+            >
               Estamos realizando um Chá de Panela para a preparação de nosso
               casamento! <br />
               Caso queira nos presentear com pix, pode escanear o QR CODE ou

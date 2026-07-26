@@ -20,10 +20,26 @@ export default function Home() {
           className="hero-text"
           style={{ transform: "translate(-8px, -40px) scale(0.85)" }}
         >
-          <h1>Chá de Panela</h1>
-          <h1 style={{ marginTop: "-30px" }}>────୨ৎ────</h1>
+          <h1
+            style={{ fontFamily: `"Great Vibes", cursive`, fontSize: "3rem" }}
+          >
+            Chá de Panela
+          </h1>
+          <h1
+            style={{
+              fonyFamily: `"Playfair Display", serif`,
+              marginTop: "-30px",
+            }}
+          >
+            ────୨ৎ────
+          </h1>
 
-          <p>
+          <p
+            style={{
+              fontFamily: `'Cormorant Garamond', serif`,
+              fontWeight: "100",
+            }}
+          >
             Convidamos você para o nosso Chá de Panela! <br />
             Será um momento especial para celebrar essa nova etapa e
             compartilhar uma tarde agradável. <br />
@@ -65,14 +81,7 @@ export default function Home() {
             </div>
           </div>
 
-          <p
-            style={{
-              marginBottom: "-120px",
-              fontSize: "1.2rem",
-            }}
-          >
-            Marina e Daniel
-          </p>
+          <p id="nomesfofos-cuticuti">Marina e Daniel</p>
         </div>
       </div>
 

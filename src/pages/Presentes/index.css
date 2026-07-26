@@ -66,7 +66,7 @@ body {
 .chave-pix p {
     font-family: "Poly", serif;
     font-size: 1.25rem;
-    color: #2d1b1b;
+    color: rgb(143, 24, 30);
     text-align: center;
     line-height: 1.1;
     margin: 0;
@@ -75,7 +75,7 @@ body {
 .qrcode img {
     width: 240px;
     height: 240px;
-    transform: translate(-24px, -15px);
+    transform: translate(-20px, -15px);
     object-fit: contain;
     display: block;
     position: fixed;
