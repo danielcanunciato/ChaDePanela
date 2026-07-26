@@ -18,7 +18,7 @@ export default function Home() {
       <div className="bg" style={{ marginTop: "40px", marginBottom: "-40px" }}>
         <div
           className="hero-text"
-          style={{ transform: "translate(-8px, -40px) scale(0.85)" }}
+          style={{ transform: "translate(-8px, -40px) scale(0.9)" }}
         >
           <h1
             style={{ fontFamily: `"Great Vibes", cursive`, fontSize: "3rem" }}
@@ -37,7 +37,7 @@ export default function Home() {
           <p
             style={{
               fontFamily: `'Cormorant Garamond', serif`,
-              fontSize: "1.2rem",
+              fontSize: "1.3rem",
               color: "rgb(143, 24, 30)",
               fontWeight: "700",
             }}
