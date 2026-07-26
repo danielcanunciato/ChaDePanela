@@ -37,7 +37,9 @@ export default function Home() {
           <p
             style={{
               fontFamily: `'Cormorant Garamond', serif`,
-              fontWeight: "100",
+              fontSize: "1.2rem",
+              color: "rgb(143, 24, 30)",
+              fontWeight: "700",
             }}
           >
             Convidamos você para o nosso Chá de Panela! <br />
